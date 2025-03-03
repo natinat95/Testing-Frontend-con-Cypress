@@ -8,13 +8,10 @@ Este es un proyecto de **registro de usuario** que incluye **validación en tiem
    ```bash
    git clone https://github.com/natinat95/Testing-Frontend-con-Cypress.git
    
-2. Navega a la carpeta del proyecto:
-   cd nombre-del-repo
+2. Navega a la carpeta del proyecto
 3. Instala las dependencias
-   npm install
 4. Ejecuta el proyecto en un servidor local
-5. Para ejecutar las pruebas con Cypress
-   npx cypress open
+5. Ejecuta las pruebas con Cypress
 
 ## Pruebas
 La pruebas están ubicadas en la carpeta cypress/e2e/ y puedes ejecutar Cypress para ver cómo se comportan las pruebas automatizadas en el proyecto.
@@ -27,6 +24,13 @@ Cypress: Configuración adecuada de Cypress para pruebas de la funcionalidad de 
 Interacción entre campos: Asegurar que los campos como la confirmación de contraseña funcionaran correctamente y se validaran en tiempo real.
 
 ## Capturas
+
+![Texto alternativo](prueba1.png)
+
+![Texto alternativo](prueba2.png)
+
+![Texto alternativo](prueba3.png)
+
 
 ## Informe sobre el Proyecto
 
