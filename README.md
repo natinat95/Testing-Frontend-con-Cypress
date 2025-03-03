@@ -6,7 +6,7 @@ Este es un proyecto de **registro de usuario** que incluye **validación en tiem
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/usuario/repo.git
+  [ git clone https://github.com/usuario/repo.git](https://github.com/natinat95/Testing-Frontend-con-Cypress.git)
 2. Navega a la carpeta del proyecto:
    cd nombre-del-repo
 3. Instala las dependencias
