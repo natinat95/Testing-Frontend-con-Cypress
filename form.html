@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>REGISTRO</h1>
+        <form id="registro-form">
+            <div class="input-group">
+                <input type="text" class="input-field" id="nombre" placeholder="Nombre completo" required>
+                <div class="error-message" id="nombre-error">El nombre es obligatorio</div>
+            </div>
+
+            <div class="input-group">
+                <input type="email" class="input-field" id="email" placeholder="Correo electrónico" required>
+                <div class="error-message" id="email-error">Introduce un correo electrónico válido</div>
+            </div>
+
+            <div class="input-group">
+                <input type="password" class="input-field" id="password" placeholder="Contraseña" required>
+                <div class="error-message" id="password-error">La contraseña debe tener al menos 8 caracteres, una
+                    mayúscula, una minúscula y un número</div>
+            </div>
+
+            <div class="input-group">
+                <input type="password" class="input-field" id="confirmar-password" placeholder="Confirmar contraseña"
+                    required>
+                <div class="error-message" id="confirmar-password-error">Las contraseñas no coinciden</div>
+            </div>
+
+            <div class="input-group">
+                <input type="date" class="input-field" id="fecha-nacimiento" placeholder="Fecha de nacimiento">
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="terminos" required>
+                <label for="terminos">Acepto los <span class="terminos">Términos de Uso</span></label>
+                <div id="terminos-error" class="error-message" style="display:none;">
+                    Debes aceptar los términos y condiciones
+                </div>
+
+            </div>
+
+            <button type="submit">REGISTRARSE AHORA</button>
+
+            <div class="success-message" id="success-message">
+                ¡Registro completado con éxito!
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
